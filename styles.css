@@ -54,9 +54,14 @@ button:active {
 }
 #clear {
   width: 200px;
+  background-color: rgb(163, 175, 235);
 }
 #equals {
   width: 200px;
+  background-color: rgb(163, 175, 235);
+}
+#clear:hover, #equals:hover {
+  background-color: rgb(140, 153, 221);;
 }
 #bottomdiv {
   display: flex;
@@ -77,9 +82,6 @@ button:active {
 #giticon {
   width: 45px;
   padding-left: 20px;
-}
-#gitdiv {
-    margin-top;
 }
 #giticon:hover {
     width:55px;
