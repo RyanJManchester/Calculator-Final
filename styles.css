@@ -1,0 +1,102 @@
+body {
+  min-height: 100%;
+  background-color: rgba(169, 208, 226, 0.705);
+  font-size: 20px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calcBody {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 430px;
+  height: min-content;
+  border: 5px black solid;
+  border-radius: 30px;
+  background-color: rgb(124, 124, 124);
+}
+.buttonDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#screenDiv {
+  width: 400px;
+  height: 140px;
+  border: medium solid;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  margin: 15px auto 20px auto;
+}
+button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
+  padding: 20px 20px 20px 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+button:active {
+  box-shadow: 3px 3px black;
+}
+.operator {
+  background-color: orange;
+}
+.operator:hover {
+    background-color: rgb(219, 143, 0);
+}
+#clear {
+  width: 200px;
+}
+#equals {
+  width: 200px;
+}
+#bottomdiv {
+  display: flex;
+  margin-bottom: 20px;
+}
+.allbuttons {
+  width: 400px;
+}
+.footer {
+  height: 75px;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+#giticon {
+  width: 45px;
+  padding-left: 20px;
+}
+#gitdiv {
+    margin-top;
+}
+#giticon:hover {
+    width:55px;
+}
+#lastOpScreen {
+ height: 50px;
+ padding-right: 10px;
+ display: flex;
+ flex-direction: row-reverse;
+ align-items: flex-end;
+ font-size: 30px;
+}
+#currentOpScreen {
+    padding-right: 10px;
+height: 90px;
+display: flex;
+font-size: 70px;
+flex-direction: row-reverse;
+align-items: flex-end;
+}
